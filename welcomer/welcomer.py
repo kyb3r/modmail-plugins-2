@@ -72,7 +72,6 @@ class Welcomer(commands.Cog):
     async def welcomer(self, ctx, channel: discord.TextChannel, *, message):
         """Sets up welcome command. Check [here](https://github.com/fourjr/modmail-plugins/blob/master/welcomer/README.md)
         for complex usage.
-        Example usage: `welcomer #general Hello {member.name}`
         """
         if message.startswith('https://') or message.startswith('http://'):
             # message is a URL
